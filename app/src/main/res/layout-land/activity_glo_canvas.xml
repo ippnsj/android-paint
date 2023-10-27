@@ -7,6 +7,15 @@
         android:layout_height="match_parent"
         android:background="@color/canvas_outside">
 
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/paint_board"
+            app:layout_constraintBottom_toBottomOf="@id/v_paint_board"
+            app:layout_constraintEnd_toEndOf="@id/v_paint_board"
+            app:layout_constraintStart_toStartOf="@+id/v_paint_board"
+            app:layout_constraintTop_toTopOf="@id/v_paint_board" />
+
         <woowacourse.paint.ui.glocanvas.PaintBoard
             android:id="@+id/v_paint_board"
             android:layout_width="0dp"
